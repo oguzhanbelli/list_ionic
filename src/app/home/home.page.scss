@@ -1,11 +1,17 @@
 #container {
-  text-align: center;
 
+  text-align: center;
+  background-color:#3880ff;
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+img{
+  opacity: 0.3; 
+  padding-bottom:165px;
+  margin: auto;
 }
 
 #container strong {
@@ -24,4 +30,21 @@
 
 #container a {
   text-decoration: none;
+}
+
+.loginButton{
+  width: 270px;
+}
+
+ion-toolbar{
+  --border-color:#fff;
+}
+ion-list{
+  background-color:#f5f6f6b0;
+}
+.oguzhan{
+  background-color: #f5f6f6b0;
+}
+ion-content{
+  min-height:0px;
 }

@@ -1,0 +1,67 @@
+<ion-header [translucent]="false">
+
+
+  <ion-toolbar color="primary">
+
+    <ion-buttons slot="primary">
+      <ion-button color="dark" (click)="dismiss()">
+        <ion-icon  ios="close-circle-outline" md="close-circle-sharp" size="large"></ion-icon>
+
+      </ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+
+
+
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+
+
+  <!--LOGİN PAGE-->
+  <div id="container" class="paddingBottom100 center">
+   
+
+    <img src="../assets/login.svg">
+
+    <ion-item color="primary">
+      <ion-label position="floating">Ad</ion-label>
+      <ion-input [(ngModel)]="ad"></ion-input>
+    </ion-item>
+
+
+    <ion-item color="primary">
+      <ion-label position="floating">Soyad</ion-label>
+      <ion-input [(ngModel)]="soyad"></ion-input>
+    </ion-item>
+
+
+
+  
+    <ion-item color="primary">
+      <ion-label position="floating">Username</ion-label>
+      <ion-input [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+
+    <ion-item color="primary">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+<div class="paddingTop20">
+    <!-- Round -->
+<p>
+<ion-button color="light" shape="round" fill="outline" class="loginButton" (click)="userSave()">User Save </ion-button>
+</p>
+</div>
+
+
+  </div>
+
+
+
+</ion-content>
+

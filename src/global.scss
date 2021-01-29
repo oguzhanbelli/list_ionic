@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.paddingTop20{
+    padding-top: 20px;
+  }
+
+  .paddingBottom100{
+    padding-bottom: 100px;
+  }
+
+  ion-toolbar{
+    --border-color:#fff;
+  }
+  .center{
+    text-align: center;
+  }

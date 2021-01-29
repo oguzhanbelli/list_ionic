@@ -1,20 +1,98 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
+<ion-header color="secondary" [translucent]="true">
+ 
+<ion-toolbar color="primary">
+  <ion-buttons slot="primary">
+    <ion-button (click)="cikis()">
+      <div *ngIf="userData?.id>0 && !sifreUnutma">
+      <ion-icon slot="icon-only" name="exit"></ion-icon>
+    </div>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>Deprem</ion-title>
+</ion-toolbar>
+<ion-content  [fullscreen]="true">
+  <!--
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
+-->
+<!--LOGİN PAGE-->
+  <div *ngIf="!userData?.id>0 && !sifreUnutma" id="container"  class="paddingBottom100">
+   
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <img src="../assets/login.svg">
+
+  <div class="container">
+    <ion-item color="primary">
+      <ion-label position="floating">Username</ion-label>
+      <ion-input [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+
+    <ion-item color="primary">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+</div>
+<div class="paddingTop20">
+    <!-- Round -->
+<ion-button color="light" shape="round" class="loginButton" [disabled]="!username || !password || password.length<3" (click)="login()">User Login</ion-button>
+<p>
+<ion-button color="light" shape="round" fill="outline" class="loginButton" (click)="userModal('save')">Sign Up </ion-button>
+</p>
+
+<p >
+
+<ion-item color="primary" class="center" (click)="sifremiUnuttum('true')">
+  <ion-label>  Şifremi unuttum!</ion-label>
+</ion-item>
+
+</p>
+</div>
+
+
   </div>
+
+  <!--LOGİN HOME PAGE-->
+<div  *ngIf="userData?.id>0 && !sifreUnutma" >
+
+  
+<div class="container">
+  <ion-list >
+      <ion-item color="primary" *ngFor="let deprem of depremler" (click)="detayAc(deprem)">
+        <ion-label>{{deprem.yer}}
+          <p>{{deprem.tarih}} - {{deprem.saat}}</p>
+        </ion-label>
+
+        <ion-badge color="{{deprem.siddet>2.5 ? 'danger':'dark'}}" slot="end">{{deprem.siddet}}</ion-badge>
+      </ion-item>
+</ion-list>
+</div>
+  
+</div>
+
+
+
+
+<!--Şifremi unuttum-->
+ {{sifreUnutma}}
+<div *ngIf="sifreUnutma" class="center">
+<div class="container">
+  <ion-item>
+    <ion-label position="floating">e-mail</ion-label>
+    <ion-input type="email" [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-button shape="round" class="loginButton" [disabled]="!email" (click)="sifremiUnuttum('true',email)">Send</ion-button>
+
+  <ion-item class="center" (click)="sifremiUnuttum('false')">
+    <ion-label>  User Login</ion-label>
+  </ion-item>
+
+  
+</div>
+</div>
+
 </ion-content>

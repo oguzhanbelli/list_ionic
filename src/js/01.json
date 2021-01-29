@@ -1,0 +1,237 @@
+{
+    "success": true,
+    "status": "200",
+    "data": [
+        {
+            "eczane_adi": "Aladağ Eczanesi",
+            "eczane_ilce": "Aladağ",
+            "eczane_adres": "SİNANPAŞA MAH.İNÖNÜ CAD.NO:104",
+            "eczane_telefon": "03225912641",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Ece Eczanesi",
+            "eczane_ilce": "Ceyhan",
+            "eczane_adres": "CUMHURİYET MH 109 SK. NO:9",
+            "eczane_telefon": "03226115109",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Öztürkler Eczanesi",
+            "eczane_ilce": "Ceyhan",
+            "eczane_adres": "ŞAHİN ÖZBİLEN MAH.OKTAR CİRİT CAD.NO:48",
+            "eczane_telefon": "03226112323",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Ağca Eczanesi",
+            "eczane_ilce": "Çukurova",
+            "eczane_adres": "Yüzüncü Yıl Mah. Dr. Sadık Ahmet Blv. No:91/D F/Blok",
+            "eczane_telefon": "05528262422",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Dedeoğlu Eczanesi",
+            "eczane_ilce": "Çukurova",
+            "eczane_adres": "TOROS MAH.78159 SOK.NO:11/D",
+            "eczane_telefon": "03222312929",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Gökçen Eczanesi",
+            "eczane_ilce": "Çukurova",
+            "eczane_adres": "MAHFESIĞMAZ MAH.TURGUT ÖZAL BUL. ATA SİTESİ 51 SOK..NO.31/A",
+            "eczane_telefon": "03222348910",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Salbaş Eczanesi",
+            "eczane_ilce": "Çukurova",
+            "eczane_adres": "PTT KARŞISI 01780 SALBAŞ BELDESİ",
+            "eczane_telefon": "03225612044",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Yılmaz Eczanesi",
+            "eczane_ilce": "Feke",
+            "eczane_adres": "İSLAM MAH.ULUS CAD. B/1",
+            "eczane_telefon": "03227412555",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Toklu Eczanesi",
+            "eczane_ilce": "İmamoğlu",
+            "eczane_adres": "ADALET MAH.174 SOK. NO:1",
+            "eczane_telefon": "03228914636",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Yörük Eczanesi",
+            "eczane_ilce": "Karaisalı",
+            "eczane_adres": "YENİ MAHALLE ZAHİT AKDAĞ CADDESİ NO:16/A",
+            "eczane_telefon": "03225512251",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Yakamoz Eczanesi",
+            "eczane_ilce": "Karataş",
+            "eczane_adres": "KEMALİYE MAH.ATATÜRK CAD. NO:27/B",
+            "eczane_telefon": "03226812599",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Aydın Eczanesi",
+            "eczane_ilce": "Kozan",
+            "eczane_adres": "KARACAOĞLAN MAH.ALPTUĞ SOK. NO:9/C",
+            "eczane_telefon": "03225158523",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Kübra Eczanesi",
+            "eczane_ilce": "Kozan",
+            "eczane_adres": "TUFANPAŞA MH.FEHMİ ÖZEL TÜRKAY CD. AKAY APT.ZEMİN KAT",
+            "eczane_telefon": "03225156585",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Filiz Özkan Eczanesi",
+            "eczane_ilce": "Pozantı",
+            "eczane_adres": "AKÇATEKİR MAH.TOROS CAD.ZEMİN NO:8",
+            "eczane_telefon": "03225844141",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Pozantı Eczanesi",
+            "eczane_ilce": "Pozantı",
+            "eczane_adres": "CUMHURİYET MAH. ATATÜRK CAD. NO:71/A POZANTI",
+            "eczane_telefon": "03225813066",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Saimbeyli Eczanesi",
+            "eczane_ilce": "Saimbeyli",
+            "eczane_adres": "ISLAM MAH.TUFANBEYLI CADDESI 18/A",
+            "eczane_telefon": "03227612626",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Mine Eczanesi",
+            "eczane_ilce": "Sarıçam",
+            "eczane_adres": "YILDIRIM BEYAZIT MAH. 503 SK. NO:26/B1",
+            "eczane_telefon": "03223411559",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Aksa Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "ŞAKİRPAŞA MH. ŞAKİRPAŞA CAD. NO.256/A",
+            "eczane_telefon": "03224280453",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Aksöz Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "DENİZLİ MAHALLESİ ŞEHİT MEHMET ÖZEL BU.NO:178/B",
+            "eczane_telefon": "03224357207",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Atalı Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "KOCAVEZIR MAH.PAZARLAR CAD.AZIZ PAMUKÇU IS MERKEZI NO:80/H",
+            "eczane_telefon": "03223523199",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Aylin Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "AKKAPI MAH.DAGLIOGLU SOK.NO:37/A",
+            "eczane_telefon": "03223616948",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Berdan Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "GÜLBAHÇESİ MH.OBALAR CD. 13354 SK.NO:1/A-B",
+            "eczane_telefon": "03224351144",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Canbolat Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "PINAR MAH. NAZIM HİKMET CAD. PINAT SİTESİ A BLOK NO:51/A",
+            "eczane_telefon": "03229992542",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Damla Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "BARAJ YOLU 3. DURAK. YETER APT. ALTI NO:192/D",
+            "eczane_telefon": "03224595208",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Fatih Eren Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "Gürselpaşa Mah. Yüzbaşı Pilot Mehmet Ali Kurçer Cad. B2 Blok No:45/D",
+            "eczane_telefon": "03229994598",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Mert Özkurt Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "KURTULUŞ MAH. MİTHAT SARAÇOĞLU CAD. SUPHİ RAMAZANOĞLU APT.ZEMİN KAT NO:8/E A BLOK",
+            "eczane_telefon": "03225020140",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Özbilge Eczanesi",
+            "eczane_ilce": "Seyhan",
+            "eczane_adres": "BARAJ YOLU 5.5 DURAK BÜLENT ANGIN BL.NO.125",
+            "eczane_telefon": "03222272396",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Yeni Tufanbeyli Eczanesi",
+            "eczane_ilce": "Tufanbeyli",
+            "eczane_adres": "CUMHURİYET MAH. HASTANE CAD. NO:18/2",
+            "eczane_telefon": "03227818252",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Güneş Eczanesi",
+            "eczane_ilce": "Yumurtalık",
+            "eczane_adres": "DERVİŞİYE MAH.ATATÜRK CAD.NO:77/ Z 2",
+            "eczane_telefon": "03226713400",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Ayfer Tekin Eczanesi",
+            "eczane_ilce": "Yüreğir",
+            "eczane_adres": "KİREMİTHANE MAH. ECZ.HAŞİM DALGIÇ CAD NO:110/A ÇİFTLİK YOLU ARASI MUTLU YOLU ÜZERİ KİREMİTHANE ASM Y",
+            "eczane_telefon": "03223210010",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Koza Eczanesi",
+            "eczane_ilce": "Yüreğir",
+            "eczane_adres": "Koza Mah. Günebakan Çiçeği Cad. İşyeri No:57/1",
+            "eczane_telefon": "03223237374",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Serdar Oğuz Eczanesi",
+            "eczane_ilce": "Yüreğir",
+            "eczane_adres": "SERINEVLER MAH. 3860 SOK. ORNEKKENT SITESI A BLOK NO:13/Z02 YUREGIR ADANA",
+            "eczane_telefon": "03223291080",
+            "eczane_il": "01"
+        },
+        {
+            "eczane_adi": "Sevilay Çakmak Eczanesi",
+            "eczane_ilce": "Yüreğir",
+            "eczane_adres": "KOZAN CAD.DERVİŞLER MAH.350/A ALTIN KOZA TIP MERKEZİ KARŞISI YÜREGİR/ADANA",
+            "eczane_telefon": "03223222818",
+            "eczane_il": "01"
+        }
+    ]
+}
