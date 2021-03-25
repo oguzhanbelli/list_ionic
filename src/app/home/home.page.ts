@@ -21,7 +21,6 @@ public depremler:any;
     console.log("Merhaba");
     let uData = JSON.parse(localStorage.getItem('userJSON'));
     if(uData){
-      console.log("xxxx");
       this.userData = JSON.parse(localStorage.getItem('userJSON'));
       console.log('JSON'+this.userData.id );
     }
@@ -41,7 +40,7 @@ login(){
   console.log("UserName:"+this.username);
   console.log("Password:"+this.password);
   let body = {serviceName:'login',email:this.username,sifre:this.password}
-  this.http.post('http://microwebservice.net/ecodation/webService.php',body).subscribe(data=>{
+  this.http.post('**service url***',body).subscribe(data=>{
     
     if(data==0){
         console.log("Hata");
@@ -84,10 +83,10 @@ async userModal() {
   });
 
   modal.onDidDismiss().then(data=>{
-    console.log("11111");
+  
    this.userData = JSON.parse(localStorage.getItem('userJSON'));
     //console.log(data.data.veri);
-    console.log("Modal Kapatildi");
+    
   })
   return await modal.present();
 }
@@ -106,7 +105,7 @@ sifremiUnuttum(status,email){
       this.sifreUnutma=false;
       console.log("şifre gönderme....");
       let body = {serviceName:'password',email:email}
-      this.http.post('http://microwebservice.net/ecodation/webService.php',body).subscribe(data=>{
+      this.http.post('**service url***',body).subscribe(data=>{
         console.log(data);
       })
       this.presentToast('success','mail gönderildi');
@@ -114,7 +113,7 @@ sifremiUnuttum(status,email){
 
 
   }else{
-    console.log("buradayim");
+
     this.sifreUnutma=false;
  
   }
